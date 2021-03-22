@@ -1,5 +1,6 @@
 ﻿using UnityEditor;
 using UnityEngine;
+using UnityEngine.Profiling;
 using UnityEngine.Rendering;
 
  partial class CameraRenderer
@@ -8,6 +9,8 @@ using UnityEngine.Rendering;
     partial void DrawUnsupportedShaders();
 
     partial void PrepareForSceneWindow();
+    partial void PrepareBuffer();
+
 #if UNITY_EDITOR
     static ShaderTagId[] legacyShaderTagIds =
     {
@@ -19,6 +22,7 @@ using UnityEngine.Rendering;
         new ShaderTagId("VertexLM")
     };
     static Material errorMaterial;
+    string SampleName { get; set; }
 
     partial void DrawGizmos()
     {
@@ -36,6 +40,8 @@ using UnityEngine.Rendering;
             ScriptableRenderContext.EmitWorldGeometryForSceneView(camera);
     }
 
+    
+
     partial void DrawUnsupportedShaders()
     {
         if (errorMaterial == null)
@@ -52,5 +58,14 @@ using UnityEngine.Rendering;
         var filteringSettings = FilteringSettings.defaultValue;
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
     }
+
+    partial void PrepareBuffer()
+    {
+        Profiler.BeginSample("Editor Only");
+        buffer.name = SampleName = camera.name;
+        Profiler.EndSample();
+    }
+#else  
+    const string SampleName = bufferName;
 #endif
 }
