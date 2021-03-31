@@ -8,7 +8,12 @@ public class PerObjectMaterialProperties : MonoBehaviour
     Color baseColor = Color.white;
     static MaterialPropertyBlock block;
 
-     void OnValidate()
+    void Awake()
+    {
+        OnValidate();
+    }
+
+    void OnValidate()
     {
         if (block == null)
             block = new MaterialPropertyBlock();
@@ -18,4 +23,5 @@ public class PerObjectMaterialProperties : MonoBehaviour
         //Lets you set or clear per-renderer or per-material parameter overrides.
         GetComponent<Renderer>().SetPropertyBlock(block);
     }
+    
 }
