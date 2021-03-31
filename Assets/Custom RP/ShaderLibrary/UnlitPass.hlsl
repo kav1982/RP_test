@@ -3,7 +3,9 @@
 
 #include "../ShaderLibrary/Common.hlsl"
 
+CBUFFER_START(UnityPerMaterial)
 float4 _BaseColor;
+CBUFFER_END
 
 
 

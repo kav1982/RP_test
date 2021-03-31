@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+
+
 public partial class CameraRenderer
 {
     CullingResults cullingResults;
@@ -26,6 +28,7 @@ public partial class CameraRenderer
     //    new ShaderTagId("VertexLMRGBM"),
     //    new ShaderTagId("VertexLM")      
     //};
+
 
     public void Render (ScriptableRenderContext context, Camera camera)
     {
@@ -115,6 +118,11 @@ public partial class CameraRenderer
 
 public class CustomRenderPipeline : RenderPipeline
 {
+    public CustomRenderPipeline()
+    {
+        GraphicsSettings.useScriptableRenderPipelineBatching = true;
+    }
+
     CameraRenderer renderer = new CameraRenderer();
     protected override void Render(ScriptableRenderContext context, Camera[] cameras)
     {
@@ -125,3 +133,4 @@ public class CustomRenderPipeline : RenderPipeline
     }
 
 }
+
