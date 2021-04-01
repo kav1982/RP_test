@@ -11,6 +11,8 @@ using UnityEngine.Rendering;
     partial void PrepareForSceneWindow();
     partial void PrepareBuffer();
 
+    
+
 #if UNITY_EDITOR
     static ShaderTagId[] legacyShaderTagIds =
     {
