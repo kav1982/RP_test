@@ -13,7 +13,9 @@ public partial class CameraRenderer
 
     //static Material errorMaterial;
     const string bufferName = "Render Camera";
-    static ShaderTagId unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
+    static ShaderTagId 
+        unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit"),
+        litShaderTagId = new ShaderTagId("CustomLit");
     CommandBuffer buffer = new CommandBuffer
     {
         name = bufferName
@@ -89,6 +91,7 @@ public partial class CameraRenderer
             enableDynamicBatching = useDynamicBatching,
             enableInstancing = useGPUInstancing
         };
+        drawingSettings.SetShaderPassName(1, litShaderTagId);
         //指出哪些渲染队列是允许的
         var filteringSettings = new FilteringSettings(RenderQueueRange.all);       
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
