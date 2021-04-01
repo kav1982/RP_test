@@ -30,7 +30,8 @@ public partial class CameraRenderer
     //};
 
 
-    public void Render (ScriptableRenderContext context, Camera camera)
+    public void Render (ScriptableRenderContext context, Camera camera, 
+        bool useDynamicBatching, bool useGPUInstancing)
     {
         this.context = context;
         this.camera = camera;
@@ -40,7 +41,7 @@ public partial class CameraRenderer
             return;
 
         Setup();
-        DrawVisibleGeometry();
+        DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();
         Submit();
@@ -77,13 +78,17 @@ public partial class CameraRenderer
         ExecuteBuffer();     
     }
 
-    void DrawVisibleGeometry()
+    void DrawVisibleGeometry(bool useDynamicBatching, bool useGPUInstancing)
     {
         var sortingSettings = new SortingSettings(camera)
         {
             criteria = SortingCriteria.CommonOpaque
         };
-        var drawingSettings = new DrawingSettings(unlitShaderTagId, sortingSettings);
+        var drawingSettings = new DrawingSettings(unlitShaderTagId, sortingSettings)
+        {
+            enableDynamicBatching = useDynamicBatching,
+            enableInstancing = useGPUInstancing
+        };
         //指出哪些渲染队列是允许的
         var filteringSettings = new FilteringSettings(RenderQueueRange.all);       
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
@@ -118,9 +123,14 @@ public partial class CameraRenderer
 
 public class CustomRenderPipeline : RenderPipeline
 {
-    public CustomRenderPipeline()
+    bool useDynamicBatching, useGPUInstancing;
+
+    public CustomRenderPipeline(
+        bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatcher)
     {
-        GraphicsSettings.useScriptableRenderPipelineBatching = true;
+        this.useDynamicBatching = useDynamicBatching;
+        this.useGPUInstancing = useGPUInstancing;
+        GraphicsSettings.useScriptableRenderPipelineBatching = useSRPBatcher;
     }
 
     CameraRenderer renderer = new CameraRenderer();
@@ -128,7 +138,7 @@ public class CustomRenderPipeline : RenderPipeline
     {
         foreach (Camera camera in cameras)
         {
-            renderer.Render(context, camera);
+            renderer.Render(context, camera, useDynamicBatching, useGPUInstancing);
         }
     }
 
