@@ -31,7 +31,7 @@ public partial class CameraRenderer
     //    new ShaderTagId("VertexLM")      
     //};
 
-
+    Lighting lighting = new Lighting();
     public void Render (ScriptableRenderContext context, Camera camera, 
         bool useDynamicBatching, bool useGPUInstancing)
     {
@@ -43,6 +43,7 @@ public partial class CameraRenderer
             return;
 
         Setup();
+        lighting.Setup(context, cullingResults);
         DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();
@@ -134,6 +135,7 @@ public class CustomRenderPipeline : RenderPipeline
         this.useDynamicBatching = useDynamicBatching;
         this.useGPUInstancing = useGPUInstancing;
         GraphicsSettings.useScriptableRenderPipelineBatching = useSRPBatcher;
+        GraphicsSettings.lightsUseLinearIntensity = true;
     }
 
     CameraRenderer renderer = new CameraRenderer();
