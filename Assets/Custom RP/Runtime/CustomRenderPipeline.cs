@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 
-
 public partial class CameraRenderer
 {
     CullingResults cullingResults;

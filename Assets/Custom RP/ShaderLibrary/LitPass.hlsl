@@ -68,8 +68,12 @@ float4 LitPassFragment(Varyings input ) : SV_TARGET
 	surface.alpha = base.a;
 	surface.metallic = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Metallic);
 	surface.smoothness = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Smoothness);
-			
+				
+#if defined (_PREMULTIPLY_ALPHA)
+	BRDF brdf = GetBRDF(surface, true);
+#else
 	BRDF brdf = GetBRDF(surface);
+#endif
 	float3 color = GetLighting(surface, brdf);
 	return float4(color, surface.alpha);
 	//base.rgb = abs(length(input.normalWS) - 1.0) * 10.0;

@@ -14,7 +14,7 @@ public class PerObjectMaterialProperties : MonoBehaviour
     Color baseColor = Color.white;
 
     [SerializeField, Range(0f, 1f)]
-    float cutoff = 0.5f, metallic = 0.5f, smoothness = 0.5f;
+    float cutoff = 0.5f, metallic = 0f, smoothness = 0.5f;
     
 
     void Awake()

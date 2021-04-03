@@ -13,7 +13,8 @@ float3 DirectBRDF (Surface surface, BRDF brdf, Light light)
 
 float3 GetLighting (Surface surface, BRDF brdf, Light light)
 {
-	return IncomingLight(surface,light) * brdf.diffuse;
+	//return IncomingLight(surface,light) * brdf.diffuse;
+	return IncomingLight(surface,light) * DirectBRDF(surface, brdf, light);
 }
 
 float3 GetLighting (Surface surface, BRDF brdf)
