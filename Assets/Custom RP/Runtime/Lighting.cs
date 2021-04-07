@@ -8,17 +8,22 @@ public class Lighting
 
 
     CullingResults cullingResults;
+    
 
     CommandBuffer buffer = new CommandBuffer
     {
         name = bufferName
     };
 
-    public void Setup (ScriptableRenderContext context, CullingResults cullingResults)
+    Shadows shadows = new Shadows();
+
+    public void Setup (ScriptableRenderContext context, CullingResults cullingResults, ShadowSettings shadowSettings)
     {
+        //Shadows shadows = new Shadows();
         this.cullingResults = cullingResults;
         buffer.BeginSample(bufferName);
         //SetupDirectionalLight();
+        //shadows.Setup(context, cullingResults, shadowSettings);
         SetupLights();
         buffer.EndSample(bufferName);
         context.ExecuteCommandBuffer(buffer);

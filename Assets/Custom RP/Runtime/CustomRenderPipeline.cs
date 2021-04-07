@@ -9,6 +9,7 @@ public partial class CameraRenderer
     CullingResults cullingResults;
     ScriptableRenderContext context;
     Camera camera;
+ 
 
     //static Material errorMaterial;
     const string bufferName = "Render Camera";
@@ -32,17 +33,18 @@ public partial class CameraRenderer
 
     Lighting lighting = new Lighting();
     public void Render (ScriptableRenderContext context, Camera camera, 
-        bool useDynamicBatching, bool useGPUInstancing)
+        bool useDynamicBatching, bool useGPUInstancing,ShadowSettings shadowSettings
+        )
     {
         this.context = context;
         this.camera = camera;
         PrepareBuffer();
         PrepareForSceneWindow();
-        if (!Cull())
+        if (!Cull(shadowSettings.maxDistance))
             return;
 
         Setup();
-        lighting.Setup(context, cullingResults);
+        lighting.Setup(context, cullingResults, shadowSettings);
         DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();
@@ -113,10 +115,12 @@ public partial class CameraRenderer
         buffer.Clear();
     }
 
-    bool Cull ()
-    {      
+    bool Cull (float maxShadowDistance)
+    {
+        //ScriptableCullingParameters: 在筛选结果中控制筛选过程的参数
         if (camera.TryGetCullingParameters(out ScriptableCullingParameters p))
         {
+            p.shadowDistance = Mathf.Min(maxShadowDistance, camera.farClipPlane);
             cullingResults = context.Cull(ref p);
             return true;
         }
@@ -127,12 +131,14 @@ public partial class CameraRenderer
 public class CustomRenderPipeline : RenderPipeline
 {
     bool useDynamicBatching, useGPUInstancing;
+    ShadowSettings shadowSettings;
 
     public CustomRenderPipeline(
-        bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatcher)
+        bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatcher,ShadowSettings shadowSettings)
     {
         this.useDynamicBatching = useDynamicBatching;
         this.useGPUInstancing = useGPUInstancing;
+        this.shadowSettings = shadowSettings;
         GraphicsSettings.useScriptableRenderPipelineBatching = useSRPBatcher;
         GraphicsSettings.lightsUseLinearIntensity = true;
     }
@@ -142,9 +148,12 @@ public class CustomRenderPipeline : RenderPipeline
     {
         foreach (Camera camera in cameras)
         {
-            renderer.Render(context, camera, useDynamicBatching, useGPUInstancing);
+            renderer.Render(context, camera, useDynamicBatching, useGPUInstancing,
+                shadowSettings);
         }
     }
+
+    
 
 }
 
