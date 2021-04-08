@@ -23,8 +23,9 @@ public class Lighting
         this.cullingResults = cullingResults;
         buffer.BeginSample(bufferName);
         //SetupDirectionalLight();
-        //shadows.Setup(context, cullingResults, shadowSettings);
+        shadows.Setup(context, cullingResults, shadowSettings);
         SetupLights();
+        shadows.Render();
         buffer.EndSample(bufferName);
         context.ExecuteCommandBuffer(buffer);
         buffer.Clear();
@@ -71,6 +72,12 @@ public class Lighting
         //buffer.SetGlobalVector(dirLIghtDirectionId, -light.transform.forward);
         dirLightColors[index] = visibleLight.finalColor;
         dirLightDirections[index] = -visibleLight.localToWorldMatrix.GetColumn(2); //Get a column of the matrix.
+        shadows.ReserveDirectionalShadows(visibleLight.light, index);
 
+    }
+
+    public void Cleanup()
+    {
+        shadows.Cleanup();       
     }
 }
