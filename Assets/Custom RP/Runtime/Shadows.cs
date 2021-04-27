@@ -40,6 +40,15 @@ public class Shadows
         this.settings = settings;
         ShadowedDirectionalLightCount = 0;
     }
+
+    void ExectuteBuffer()
+    {
+        context.ExecuteCommandBuffer(buffer);
+        buffer.Clear();
+    }
+
+        
+
     public void ReserveDirectionalShadows(Light light, int visibleLightIndex)
     {
         if(ShadowedDirectionalLightCount < maxShadowedDirectionalLightCount &&
@@ -70,6 +79,35 @@ public class Shadows
         buffer.GetTemporaryRT(dirshadowAtlasId, atlasSize, atlasSize,
             32, FilterMode.Bilinear, RenderTextureFormat.Shadowmap
             );
+        buffer.SetRenderTarget(
+            dirshadowAtlasId, RenderBufferLoadAction.DontCare, RenderBufferStoreAction.Store
+            );
+        buffer.ClearRenderTarget(true, false, Color.clear);
+        buffer.BeginSample(bufferName);
+        ExecuteBuffer();
+
+        for (int i=0; i<ShadowedDirectionalLightCount; i++)
+        {
+            RenderDirectionalShadows(i, atlasSize);
+        }
+        buffer.EndSample(bufferName);
+        ExecuteBuffer();
+    }
+
+    void RenderDirectionalShadows (int index, int tileSize)
+    {
+        ShadowedDirectionalLight light = ShadowedDirectionalLights[index];
+        var shadowSettings =
+            new ShadowDrawingSettings(cullingResults, light.visibleLightIndex);
+        cullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives(
+            light.visibleLightIndex, 0, 1, Vector3.zero, tileSize, 0f,
+            out Matrix4x4 viewMatrix, out Matrix4x4 projectionMatrix,
+            out ShadowSplitData splitData
+         );
+        shadowSettings.splitData = splitData;
+        buffer.SetViewProjectionMatrices(viewMatrix, projectionMatrix);
+        ExecuteBuffer();
+        context.DrawShadows(ref shadowSettings);
     }
 
 
@@ -80,9 +118,12 @@ public class Shadows
     }
     public void Cleanup()
     {
-        //Add a "release a temporary render texture" command.
-        buffer.ReleaseTemporaryRT(dirshadowAtlasId);
-        ExecuteBuffer();
+        if(ShadowedDirectionalLightCount > 0)
+        {
+            //Add a "release a temporary render texture" command.
+            buffer.ReleaseTemporaryRT(dirshadowAtlasId);
+            ExecuteBuffer();
+        }  
     }
 
 }

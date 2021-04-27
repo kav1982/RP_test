@@ -26,9 +26,9 @@ public class Lighting
         shadows.Setup(context, cullingResults, shadowSettings);
         SetupLights();
         shadows.Render();
-        buffer.EndSample(bufferName);
+        buffer.EndSample(bufferName);      
         context.ExecuteCommandBuffer(buffer);
-        buffer.Clear();
+        buffer.Clear();    
     }
 
     void SetupLights()

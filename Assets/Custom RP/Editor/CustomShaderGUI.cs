@@ -16,6 +16,7 @@ public class CustomShaderGUI : ShaderGUI
         editor = materialEditor;
         materials = materialEditor.targets;
         this.properties = properties;
+
         EditorGUILayout.Space();
         ShowPresets = EditorGUILayout.Foldout(ShowPresets, "Presets", true);
         if(ShowPresets)
@@ -26,7 +27,6 @@ public class CustomShaderGUI : ShaderGUI
             TransparentPreset();
         }
         
-
     }
 
     bool SetProperty (string name, float value)

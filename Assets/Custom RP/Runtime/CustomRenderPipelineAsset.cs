@@ -6,6 +6,7 @@ public class CustomRenderPipelineAsset : RenderPipelineAsset
 {
     [SerializeField]    
     ShadowSettings shadows = default;
+
     bool useDynamicBatching = true, useGPUInstancing = true, useSRPBatcher = true;
     protected override RenderPipeline CreatePipeline()
     {

@@ -43,8 +43,12 @@ public partial class CameraRenderer
         if (!Cull(shadowSettings.maxDistance))
             return;
 
-        Setup();
+        //Setup();
+        buffer.BeginSample(SampleName);
+        ExecuteBuffer();
         lighting.Setup(context, cullingResults, shadowSettings);
+        buffer.EndSample(SampleName);
+        Setup();
         DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();
@@ -85,6 +89,7 @@ public partial class CameraRenderer
 
     void DrawVisibleGeometry(bool useDynamicBatching, bool useGPUInstancing)
     {
+        //The camera's transparency sort mode is used to determine whether to use orthographic
         var sortingSettings = new SortingSettings(camera)
         {
             criteria = SortingCriteria.CommonOpaque
@@ -94,9 +99,12 @@ public partial class CameraRenderer
             enableDynamicBatching = useDynamicBatching,
             enableInstancing = useGPUInstancing
         };
+        //Set the shader passes that this draw call can render.
         drawingSettings.SetShaderPassName(1, litShaderTagId);
         //指出哪些渲染队列是允许的
-        var filteringSettings = new FilteringSettings(RenderQueueRange.all);       
+        var filteringSettings = new FilteringSettings(RenderQueueRange.all);  
+        //ref代表引用传递, 再引用之前就已经创建了函数的实例,不会像值传递那样copy实例的副本
+        //引用传递的返回值会影响实例本身,因为没有创建副本,所以开销较小.
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
         context.DrawSkybox(camera);
     }
