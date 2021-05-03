@@ -66,10 +66,12 @@ float4 LitPassFragment(Varyings input ) : SV_TARGET
 	surface.position = input.positionWS;
 	surface.normal = normalize(input.normalWS);
 	surface.viewDirection = normalize(_WorldSpaceCameraPos - input.positionWS);
+	surface.depth = -TransformWorldToView(input.positionWS).z;
 	surface.color = base.rgb;
 	surface.alpha = base.a;
 	surface.metallic = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Metallic);
 	surface.smoothness = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Smoothness);
+	surface.dither = InterleavedGradientNoise(input.positionCS.xy, 0);
 				
 #if defined (_PREMULTIPLY_ALPHA)
 	BRDF brdf = GetBRDF(surface, true);
@@ -81,8 +83,11 @@ float4 LitPassFragment(Varyings input ) : SV_TARGET
 	//base.rgb = abs(length(input.normalWS) - 1.0) * 10.0;
 	//base.rgb = normalize(input.normalWS);
 	//return base;
-#if defined(_CLIPPING)
+#if defined(_SHADOWS_CLIP)
 	clip(base.a - UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Cutoff));
+#elif defined(_SHADOWS_DITHER)
+	float dither = InterleavedGradientNoise(input.positionCS.xy, 0);
+	clip(base.a - dither);
 #endif
 	
 	return base;

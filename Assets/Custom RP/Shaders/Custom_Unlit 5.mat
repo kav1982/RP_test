@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Unlit
+  m_Name: Custom_Unlit 5
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
-  m_ShaderKeywords: _RECEIVE_SHADOWS
+  m_ShaderKeywords: _RECEIVE_SHADOWS _SHADOWS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -35,4 +35,4 @@ Material:
     - _SrcBlend: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.46333218, g: 0.6061731, b: 0.7169812, a: 1}
+    - _BaseColor: {r: 0.47058818, g: 0.54130447, b: 0.99215686, a: 1}
