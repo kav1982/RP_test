@@ -1264,9 +1264,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseColor: {r: 0.04313727, g: 0.532502, b: 0.972549, a: 1}
-  cutoff: 0.47
-  metallic: 0.47
-  smoothness: 0.72
+  cutoff: 0.401
+  metallic: 0.622
+  smoothness: 0.768
 --- !u!135 &692863520
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   baseColor: {r: 0.665344, g: 0.972549, b: 0.04313727, a: 1}
   cutoff: 0.5
   metallic: 0
-  smoothness: 0.5
+  smoothness: 0.786
 --- !u!135 &850263486
 SphereCollider:
   m_ObjectHideFlags: 0

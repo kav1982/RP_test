@@ -160,11 +160,13 @@ public class Shadows
             cascadeCullingSpheresId, cascadeCullingSpheres
             );
         buffer.SetGlobalVectorArray(cascadeDataId, cascadeData);
+
         //调用缓冲区上的SetGlobalMatrixArray将矩阵发送到GPU
         buffer.SetGlobalMatrixArray(dirShadowMatricesId, dirShadowMatrices);
         //buffer.SetGlobalFloat(shadowDistanceId, settings.maxDistance);
         float f = 1f - settings.directional.cascadeFade;
         buffer.SetGlobalVector(
+            //避免在着色器中使用除法
             shadowDistanceFadeId, new Vector4(1f / settings.maxDistance,
                 1f / settings.distanceFade, 
                 1f/(1f - f*f)
@@ -208,7 +210,7 @@ public class Shadows
 
         float cullingFactor =
             Mathf.Max(0f, 0.8f - settings.directional.cascadeFade);
-
+        //遍历每个级联绘制阴影
         for (int i = 0; i<cascadeCount; i++)
         {
             cullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives(
@@ -218,6 +220,7 @@ public class Shadows
             );
             splitData.shadowCascadeBlendCullingFactor = cullingFactor;
             shadowSettings.splitData = splitData;
+            //分配球体数组
             if(index == 0)
             {
                 SetCascadeData(i, splitData.cullingSphere, tileSize);

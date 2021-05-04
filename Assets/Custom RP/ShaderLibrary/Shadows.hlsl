@@ -53,9 +53,11 @@ float FadedShadowStrength (float distance, float scale, float fade)
 	return saturate((1.0 - distance * scale) * fade);
 }
 
+//返回世界空间表面的阴影数据
 ShadowData GetShadowData (Surface surfaceWS)
 {
 	ShadowData data;
+	//data.cascadeIndex = 0;
 	//data.strength = 1.0;
 	//data.strength = surfaceWS.depth < _ShadowDistance ? 1.0 : 0.0;
 	data.cascadeBlend = 1.0;

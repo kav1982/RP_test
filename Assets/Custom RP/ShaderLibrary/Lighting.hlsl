@@ -19,6 +19,7 @@ float3 GetLighting (Surface surface, BRDF brdf, Light light)
 	return IncomingLight(surface,light) * DirectBRDF(surface, brdf, light);
 }
 
+//在GetLighting中获取阴影数据并传递
 float3 GetLighting (Surface surfaceWS, BRDF brdf)
 {
 	ShadowData shadowData = GetShadowData(surfaceWS);

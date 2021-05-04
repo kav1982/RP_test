@@ -27,11 +27,11 @@ Material:
     - _Clipping: 0
     - _Cutoff: 0.5
     - _DstBlend: 0
-    - _Metallic: 0.22
+    - _Metallic: 0.43
     - _PremulAlpha: 0
     - _ReceiveShadows: 1
     - _Shadows: 0
-    - _Smoothness: 0.46
+    - _Smoothness: 0.81
     - _SrcBlend: 1
     - _ZWrite: 1
     m_Colors:
