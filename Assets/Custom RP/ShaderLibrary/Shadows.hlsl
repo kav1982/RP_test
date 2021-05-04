@@ -96,6 +96,7 @@ ShadowData GetShadowData (Surface surfaceWS)
 	return data;
 }
 
+//对阴影图集进行采样
 float SampleDirectionalShadowAtlas(float3 positionSTS)
 {
 	return SAMPLE_TEXTURE2D_SHADOW(
@@ -128,6 +129,8 @@ float FilterDirectionalShadow (float3 positionSTS)
 	#endif
 }
 
+
+//给定方向阴影数据和表面的情况下返回阴影衰减
 float GetDirectionalShadowAttenuation(DirectionalShadowData directional, ShadowData global, Surface surfaceWS)
 {
 	#if !defined(_RECEIVE_SHADOWS)

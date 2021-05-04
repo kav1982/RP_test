@@ -1,6 +1,7 @@
 ﻿#ifndef CUSTOM_LIGHTING_INCLUDED
 #define CUSTOM_LIGHTING_INCLUDED
 
+//光线的强度
 float3 IncomingLight (Surface surface, Light light)
 {
 	return 
@@ -23,7 +24,7 @@ float3 GetLighting (Surface surfaceWS, BRDF brdf)
 	ShadowData shadowData = GetShadowData(surfaceWS);
 	//return GetLighting(surface, GetDirectionalLight());
 	float3 color = 0.0;
-	for(int i=0; i < GetDirectionalLightCount( ); i++)
+	for(int i=0; i < GetDirectionalLightCount(); i++)
 	{
 		Light light = GetDirectionalLight(i, surfaceWS, shadowData);
 		color += GetLighting(surfaceWS, brdf, light);

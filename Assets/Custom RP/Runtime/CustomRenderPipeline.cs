@@ -140,13 +140,15 @@ public partial class CameraRenderer
 public class CustomRenderPipeline : RenderPipeline
 {
     bool useDynamicBatching, useGPUInstancing;
+
     ShadowSettings shadowSettings;
 
     public CustomRenderPipeline(
-        bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatcher,ShadowSettings shadowSettings)
+        bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatcher, ShadowSettings shadowSettings)
     {
         this.useDynamicBatching = useDynamicBatching;
         this.useGPUInstancing = useGPUInstancing;
+        //保持对投影的引用
         this.shadowSettings = shadowSettings;
         GraphicsSettings.useScriptableRenderPipelineBatching = useSRPBatcher;
         GraphicsSettings.lightsUseLinearIntensity = true;

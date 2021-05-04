@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Custom Render Pipeline Asset
   m_EditorClassIdentifier: 
   shadows:
-    maxDistance: 15
+    maxDistance: 100
     distanceFade: 0.1
     directional:
       atlasSize: 2048

@@ -15,6 +15,8 @@ public class Lighting
         name = bufferName
     };
 
+    const int maxDirLightCount = 4;
+
     Shadows shadows = new Shadows();
 
     public void Setup (ScriptableRenderContext context, CullingResults cullingResults, ShadowSettings shadowSettings)
@@ -30,6 +32,19 @@ public class Lighting
         context.ExecuteCommandBuffer(buffer);
         buffer.Clear();    
     }
+
+    static int
+       //dirLightColorId = Shader.PropertyToID("_DirectionalLightColor"),
+       //dirLIghtDirectionId = Shader.PropertyToID("_DirectionalLightDirection");
+       dirLightCountId = Shader.PropertyToID("_DirectionalLightCount"),
+       dirLightColorsId = Shader.PropertyToID("_DirectionalLightColors"),
+       dirLightDirectionsId = Shader.PropertyToID("_DirectionalLightDirections"),
+       dirLightShadowDataId = Shader.PropertyToID("_DirectionalLightShadowData");
+
+    static Vector4[]
+        dirLightColors = new Vector4[maxDirLightCount],
+        dirLightDirections = new Vector4[maxDirLightCount],
+        dirLightShadowData = new Vector4[maxDirLightCount];
 
     void SetupLights()
     {
@@ -53,20 +68,6 @@ public class Lighting
         buffer.SetGlobalVectorArray(dirLightShadowDataId, dirLightShadowData);
     }
 
-    const int maxDirLightCount = 4;
-
-    static int
-        //dirLightColorId = Shader.PropertyToID("_DirectionalLightColor"),
-        //dirLIghtDirectionId = Shader.PropertyToID("_DirectionalLightDirection");
-        dirLightCountId = Shader.PropertyToID("_DirectionalLightCount"),
-        dirLightColorsId = Shader.PropertyToID("_DirectionalLightColors"),
-        dirLightDirectionsId = Shader.PropertyToID("_DirectionalLightDirections"),
-        dirLightShadowDataId = Shader.PropertyToID("_DirectionalLightShadowData");
-
-    static Vector4[]
-        dirLightColors = new Vector4[maxDirLightCount],
-        dirLightDirections = new Vector4[maxDirLightCount],
-        dirLightShadowData = new Vector4[maxDirLightCount];
 
     void SetupDirectionalLight(int index, ref VisibleLight visibleLight) 
     {
@@ -75,7 +76,9 @@ public class Lighting
         //buffer.SetGlobalVector(dirLIghtDirectionId, -light.transform.forward);
         dirLightColors[index] = visibleLight.finalColor;
         dirLightDirections[index] = -visibleLight.localToWorldMatrix.GetColumn(2); //Get a column of the matrix.
+        //shadows.ReserveDirectionalShadows(visibleLight.light, index);
         dirLightShadowData[index] = shadows.ReserveDirectionalShadows(visibleLight.light, index);
+        
 
     }
 

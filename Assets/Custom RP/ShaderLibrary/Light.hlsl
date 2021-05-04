@@ -23,6 +23,7 @@ int GetDirectionalLightCount()
 	return _DirectionalLightCount;
 }
 
+//获取方向阴影数据
 DirectionalShadowData GetDirectionalShadowData(int lightIndex, ShadowData shadowData)
 {
 	DirectionalShadowData data;
@@ -32,6 +33,7 @@ DirectionalShadowData GetDirectionalShadowData(int lightIndex, ShadowData shadow
 	return data;
 }
 
+//检索方向阴影数据并使用GetDirectionalShadowAttenuation设置光源的衰减
 Light GetDirectionalLight(int index, Surface surfaceWS, ShadowData shadowData)
 {
 	Light light;

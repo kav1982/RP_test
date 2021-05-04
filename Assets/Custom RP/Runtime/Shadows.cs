@@ -55,8 +55,9 @@ public class Shadows
         ShadowedDirectionalLightCount = 0;
     }
 
-    void ExectuteBuffer()
+    void ExecuteBuffer()
     {
+        //Execute a custom graphics command buffer.
         context.ExecuteCommandBuffer(buffer);
         buffer.Clear();
     }
@@ -123,10 +124,10 @@ public class Shadows
         m.m01 = (0.5f * (m.m01 + m.m31) + offset.x * m.m31) * scale;
         m.m02 = (0.5f * (m.m02 + m.m32) + offset.x * m.m32) * scale;
         m.m03 = (0.5f * (m.m03 + m.m33) + offset.x * m.m33) * scale;
-        m.m10 = (0.5f * (m.m10 + m.m30) + offset.x * m.m30) * scale;
-        m.m11 = (0.5f * (m.m11 + m.m31) + offset.x * m.m31) * scale;
-        m.m12 = (0.5f * (m.m12 + m.m32) + offset.x * m.m32) * scale;
-        m.m13 = (0.5f * (m.m13 + m.m33) + offset.x * m.m33) * scale;
+        m.m10 = (0.5f * (m.m10 + m.m30) + offset.y * m.m30) * scale;
+        m.m11 = (0.5f * (m.m11 + m.m31) + offset.y * m.m31) * scale;
+        m.m12 = (0.5f * (m.m12 + m.m32) + offset.y * m.m32) * scale;
+        m.m13 = (0.5f * (m.m13 + m.m33) + offset.y * m.m33) * scale;
         
         return m;
     }
@@ -175,6 +176,7 @@ public class Shadows
         buffer.SetGlobalVector(
             shadowAtlasSizeId, new Vector4(atlasSize, 1f / atlasSize)
             );
+        //buffer.SetGlobalMatrixArray(dirShadowMatricesId, dirShadowMatrices);
         buffer.EndSample(bufferName);
         ExecuteBuffer();
     }
@@ -227,8 +229,9 @@ public class Shadows
             int tileIndex = tileOffset + i;
             //SetTileViewport(index, split, tileSize);
             //创建从世界空间到灯光空间的转换矩阵
+            //SetTileViewport分割视图打成图集
             dirShadowMatrices[tileIndex] = ConvertToAtlasMatiex(
-                projectionMatrix * viewMatrix,
+                projectionMatrix * viewMatrix,            
                 SetTileViewport(tileIndex, split, tileSize), split
                 );
 
@@ -254,6 +257,7 @@ public class Shadows
             );
     }
 
+    //偏移量根据切片的大小缩放
     Vector2 SetTileViewport (int index, int split, float tileSize)
     {
         Vector2 offset = new Vector2(index % split, index / split);
@@ -264,11 +268,11 @@ public class Shadows
     }
 
 
-    void ExecuteBuffer()
-    {
-        context.ExecuteCommandBuffer(buffer);
-        buffer.Clear();
-    }
+    //void ExecuteBuffer()
+    //{
+    //    context.ExecuteCommandBuffer(buffer);
+    //    buffer.Clear();
+    //}
     public void Cleanup()
     {
         if(ShadowedDirectionalLightCount > 0)
