@@ -112,13 +112,13 @@ public class Shadows
 
     Matrix4x4 ConvertToAtlasMatiex(Matrix4x4 m, Vector2 offset, int split)
     {
-        //if(SystemInfo.usesReversedZBuffer)
-        //{
-        //    m.m20 = -m.m20;
-        //    m.m21 = -m.m21;
-        //    m.m22 = -m.m22;
-        //    m.m23 = -m.m23;
-        //}
+        if (SystemInfo.usesReversedZBuffer)
+        {
+            m.m20 = -m.m20;
+            m.m21 = -m.m21;
+            m.m22 = -m.m22;
+            m.m23 = -m.m23;
+        }
         float scale = 1f / split;
         m.m00 = (0.5f * (m.m00 + m.m30) + offset.x * m.m30) * scale;
         m.m01 = (0.5f * (m.m01 + m.m31) + offset.x * m.m31) * scale;
@@ -128,7 +128,11 @@ public class Shadows
         m.m11 = (0.5f * (m.m11 + m.m31) + offset.y * m.m31) * scale;
         m.m12 = (0.5f * (m.m12 + m.m32) + offset.y * m.m32) * scale;
         m.m13 = (0.5f * (m.m13 + m.m33) + offset.y * m.m33) * scale;
-        
+        m.m20 = 0.5f * (m.m20 + m.m30);
+        m.m21 = 0.5f * (m.m21 + m.m31);
+        m.m22 = 0.5f * (m.m22 + m.m32);
+        m.m23 = 0.5f * (m.m23 + m.m33);
+
         return m;
     }
 
@@ -167,9 +171,9 @@ public class Shadows
         float f = 1f - settings.directional.cascadeFade;
         buffer.SetGlobalVector(
             //避免在着色器中使用除法
-            shadowDistanceFadeId, new Vector4(1f / settings.maxDistance,
-                1f / settings.distanceFade, 
-                1f/(1f - f*f)
+            shadowDistanceFadeId, new Vector4(
+                1f / settings.maxDistance, 1f / settings.distanceFade, 
+                1f/(1f - f * f)
              )
          );
         SetKeywords(
