@@ -62,6 +62,7 @@ ShadowData GetShadowData (Surface surfaceWS)
 	//data.strength = surfaceWS.depth < _ShadowDistance ? 1.0 : 0.0;
 	data.cascadeBlend = 1.0;
 	data.strength = FadedShadowStrength(surfaceWS.depth, _ShadowDistanceFade.x, _ShadowDistanceFade.y);
+	//data.strength *= FadedShadowStrength(distanceSqr, _CascadeData[i].x, _ShadowDistanceFade.z);
 	int i;
 	for(i = 0; i < _CascadeCount; i++)
 	{

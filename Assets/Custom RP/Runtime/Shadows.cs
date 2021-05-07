@@ -244,6 +244,7 @@ public class Shadows
 
             buffer.SetViewProjectionMatrices(viewMatrix, projectionMatrix);
             //buffer.SetGlobalDepthBias(0f, 3f);
+            //buffer.SetGlobalDepthBias(5000f, 0f);
             buffer.SetGlobalDepthBias(0f, light.slopeScaleBias);
             ExecuteBuffer();
             context.DrawShadows(ref shadowSettings);
