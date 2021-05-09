@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Rendering;
 
 
@@ -12,6 +10,7 @@ public partial class CameraRenderer
  
 
     //static Material errorMaterial;
+    //命令缓冲区的名字 Render Camera
     const string bufferName = "Render Camera";
     static ShaderTagId 
         unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit"),
@@ -32,6 +31,7 @@ public partial class CameraRenderer
     //};
 
     Lighting lighting = new Lighting();
+    //用于渲染单个摄像机的新类,建立相机的渲染流水线
     public void Render (ScriptableRenderContext context, Camera camera, 
         bool useDynamicBatching, bool useGPUInstancing,ShadowSettings shadowSettings
         )
@@ -74,19 +74,6 @@ public partial class CameraRenderer
     //    context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
     //}
 
-    void Setup()
-    {
-        context.SetupCameraProperties(camera);
-        CameraClearFlags flags = camera.clearFlags;
-        buffer.ClearRenderTarget(
-            flags <= CameraClearFlags.Depth, 
-            flags == CameraClearFlags.Color, 
-            flags == CameraClearFlags.Color ? camera.backgroundColor.linear : Color.clear
-            );
-        buffer.BeginSample(SampleName);      
-        ExecuteBuffer();     
-    }
-
     void DrawVisibleGeometry(bool useDynamicBatching, bool useGPUInstancing)
     {
         //The camera's transparency sort mode is used to determine whether to use orthographic
@@ -111,7 +98,23 @@ public partial class CameraRenderer
         context.DrawSkybox(camera);
     }
 
- 
+    void Setup()
+    {
+        //SetupCameraProperties(camera)摄像机的位置和方向以及透视等信息的传递
+        //Setup camera specific global shader variables.
+        context.SetupCameraProperties(camera);
+        //上下文会延迟实际的渲染,直到我们提交它为止
+        CameraClearFlags flags = camera.clearFlags;
+        buffer.ClearRenderTarget(
+            flags <= CameraClearFlags.Depth,    //深度
+            flags == CameraClearFlags.Color,    //颜色
+            flags == CameraClearFlags.Color ? camera.backgroundColor.linear : Color.clear   //用于清除的颜色
+            );
+        buffer.BeginSample(SampleName);
+        ExecuteBuffer();
+    }
+
+
 
     void Submit()
     {
@@ -122,6 +125,7 @@ public partial class CameraRenderer
 
     void ExecuteBuffer()
     {
+        //执行和清除总是一起完成的
         context.ExecuteCommandBuffer(buffer);
         buffer.Clear();
     }
@@ -129,6 +133,7 @@ public partial class CameraRenderer
     bool Cull (float maxShadowDistance)
     {
         //ScriptableCullingParameters: 在筛选结果中控制筛选过程的参数
+        //读取摄像机的Cull设置以便于显示内容,它返回是否成功获取该参数
         if (camera.TryGetCullingParameters(out ScriptableCullingParameters p))
         {
             p.shadowDistance = Mathf.Min(maxShadowDistance, camera.farClipPlane);
@@ -157,6 +162,7 @@ public class CustomRenderPipeline : RenderPipeline
     }
 
     CameraRenderer renderer = new CameraRenderer();
+    //创建一个渲染的实例,使用它在一个循环中渲染所有的相机
     protected override void Render(ScriptableRenderContext context, Camera[] cameras)
     {
         foreach (Camera camera in cameras)
