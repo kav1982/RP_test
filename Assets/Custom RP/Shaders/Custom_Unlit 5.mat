@@ -35,4 +35,4 @@ Material:
     - _SrcBlend: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.47058818, g: 0.54130447, b: 0.99215686, a: 1}
+    - _BaseColor: {r: 0.629984, g: 0.6711239, b: 0.9339623, a: 1}

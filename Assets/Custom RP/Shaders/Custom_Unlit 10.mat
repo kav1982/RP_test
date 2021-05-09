@@ -7,16 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Unlit
+  m_Name: Custom_Unlit 10
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
-  m_ShaderKeywords: _RECEIVE_SHADOWS _SHADOWS_OFF
+  m_ShaderKeywords: _CLIPPING _SHADOWS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2450
   stringTagMap: {}
-  disabledShaderPasses:
-  - SHADOWCASTER
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -25,15 +24,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Clipping: 0
-    - _Cutoff: 0.5
+    - _Clipping: 1
+    - _Cutoff: 0.38
     - _DstBlend: 0
     - _Metallic: 0.22
     - _PremulAlpha: 0
-    - _ReceiveShadows: 1
-    - _Shadows: 3
+    - _ReceiveShadows: 0
+    - _Shadows: 0
     - _Smoothness: 0.46
     - _SrcBlend: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.49840206, g: 0.6132076, b: 0.44255075, a: 1}
+    - _BaseColor: {r: 0.5137255, g: 0.8204176, b: 0.85882354, a: 1}

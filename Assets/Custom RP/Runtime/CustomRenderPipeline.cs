@@ -97,7 +97,9 @@ public partial class CameraRenderer
         var drawingSettings = new DrawingSettings(unlitShaderTagId, sortingSettings)
         {
             enableDynamicBatching = useDynamicBatching,
-            enableInstancing = useGPUInstancing
+            enableInstancing = useGPUInstancing,
+            perObjectData = PerObjectData.Lightmaps | PerObjectData.LightProbe |
+            PerObjectData.LightProbeProxyVolume
         };
         //Set the shader passes that this draw call can render.
         drawingSettings.SetShaderPassName(1, litShaderTagId);

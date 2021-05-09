@@ -179,6 +179,9 @@ public class Shadows
         SetKeywords(
             directionalFilterKeywords, (int)settings.directional.filter - 1
         );
+        SetKeywords(
+            cascadeBlendKeywords, (int)settings.directional.cascadeBlend - 1
+        );
         buffer.SetGlobalVector(
             shadowAtlasSizeId, new Vector4(atlasSize, 1f / atlasSize)
             );
@@ -255,7 +258,9 @@ public class Shadows
 
     void SetCascadeData (int index, Vector4 cullingSphere, float tileSize)
     {
-        float texelSize = 2f * cullingSphere.w / tileSize;      
+        float texelSize = 2f * cullingSphere.w / tileSize;
+        float filterSize = texelSize * ((float)settings.directional.filter + 1f);
+        cullingSphere.w -= filterSize;
         cullingSphere.w *= cullingSphere.w;
         cascadeCullingSpheres[index] = cullingSphere;
         //cascadeData[index].x = 1f / cullingSphere.w;

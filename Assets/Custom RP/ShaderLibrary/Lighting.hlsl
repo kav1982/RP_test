@@ -20,11 +20,11 @@ float3 GetLighting (Surface surface, BRDF brdf, Light light)
 }
 
 //在GetLighting中获取阴影数据并传递
-float3 GetLighting (Surface surfaceWS, BRDF brdf)
+float3 GetLighting (Surface surfaceWS, BRDF brdf, GI gi)
 {
 	ShadowData shadowData = GetShadowData(surfaceWS);
 	//return GetLighting(surface, GetDirectionalLight());
-	float3 color = 0.0;
+	float3 color = gi.diffuse;
 	for(int i=0; i < GetDirectionalLightCount(); i++)
 	{
 		Light light = GetDirectionalLight(i, surfaceWS, shadowData);
