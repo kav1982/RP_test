@@ -25,10 +25,6 @@ float4 unity_ProbeVolumeSizeInv;
 float4 unity_ProbeVolumeMin;
 CBUFFER_END
 
-//float3 GetEmission(float2 baseUV)
-//{
-//	return GetBase(baseUV).rgb;
-//}
 
 float4x4 unity_MatrixVP;
 float4x4 unity_MatrixV;
