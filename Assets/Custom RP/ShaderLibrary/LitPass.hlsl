@@ -30,7 +30,7 @@ struct Attributes
 	float3 normalOS : NORMAL;
 	float2 baseUV : TEXCOORD0;
 	GI_ATTRIBUTE_DATA
-		UNITY_VERTEX_INPUT_INSTANCE_ID
+	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
 struct Varyings
@@ -40,7 +40,7 @@ struct Varyings
 	float3 normalWS : VAR_NORMAL;
 	float2 baseUV : VAR_BASE_UV;
 	GI_VARYINGS_DATA
-		UNITY_VERTEX_INPUT_INSTANCE_ID
+	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
 

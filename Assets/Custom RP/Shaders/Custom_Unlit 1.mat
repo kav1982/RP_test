@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
   m_ShaderKeywords: _CLIPPING _RECEIVE_SHADOWS _SHADOWS_ON
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap: {}
