@@ -31,7 +31,7 @@ float DistanceSquared(float3 pA, float3 pB)
 #define UNITY_MATRIX_VP unity_MatrixVP
 #define UNITY_MATRIX_P glstate_matrx_projection
 
-#if defined (_SHADOW_MASK_DISTANCE)
+#if defined(_SHADOW_MASK_ALWAYS) || defined (_SHADOW_MASK_DISTANCE)
 	#define SHADOWS_SHADOWMASK
 #endif
 
