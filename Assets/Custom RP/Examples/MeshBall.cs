@@ -58,7 +58,6 @@ public class MeshBall : MonoBehaviour
 
             if (!lightProbeVolume)
             {
-
                 var positions = new Vector3[1023];
                 for (int i = 0; i < matrices.Length; i++)
                 {

@@ -171,7 +171,8 @@ public class Shadows
     void RenderDirectionalShadows() 
     {
         int atlasSize = (int)settings.directional.atlasSize;
-        buffer.GetTemporaryRT(dirshadowAtlasId, atlasSize, atlasSize,
+        buffer.GetTemporaryRT(
+            dirshadowAtlasId, atlasSize, atlasSize,
             32, FilterMode.Bilinear, RenderTextureFormat.Shadowmap
             );
         buffer.SetRenderTarget(
@@ -278,7 +279,7 @@ public class Shadows
 
             buffer.SetViewProjectionMatrices(viewMatrix, projectionMatrix);
             //buffer.SetGlobalDepthBias(0f, 3f);
-            //buffer.SetGlobalDepthBias(5000f, 0f);
+            //buffer.SetGlobalDepthBias(50000f, 0f);
             buffer.SetGlobalDepthBias(0f, light.slopeScaleBias);
             ExecuteBuffer();
             context.DrawShadows(ref shadowSettings);
@@ -297,7 +298,7 @@ public class Shadows
         //cascadeData[index].x = 1f / cullingSphere.w;
         cascadeData[index] = new Vector4(
             1f / cullingSphere.w,
-            texelSize * 1.4142136f
+            filterSize * 1.4142136f
             );
     }
 
