@@ -101,17 +101,17 @@ float4 SampleBakedShadows(float2 lightMapUV, Surface surfaceWS)
 			unity_ShadowMask, samplerunity_ShadowMask, lightMapUV
 		);
 	#else
-	if (unity_ProbeVolumeParams.x) {
-		return SampleProbeOcclusion(
-			TEXTURE3D_ARGS(unity_ProbeVolumeSH, samplerunity_ProbeVolumeSH),
-			surfaceWS.position, unity_ProbeVolumeWorldToObject,
-			unity_ProbeVolumeParams.y, unity_ProbeVolumeParams.z,
-			unity_ProbeVolumeMin.xyz, unity_ProbeVolumeSizeInv.xyz
+		if (unity_ProbeVolumeParams.x) {
+			return SampleProbeOcclusion(
+				TEXTURE3D_ARGS(unity_ProbeVolumeSH, samplerunity_ProbeVolumeSH),
+				surfaceWS.position, unity_ProbeVolumeWorldToObject,
+				unity_ProbeVolumeParams.y, unity_ProbeVolumeParams.z,
+				unity_ProbeVolumeMin.xyz, unity_ProbeVolumeSizeInv.xyz
 			);
 		}
-	else {
-			return unity_ProbesOcclusion;
-		}
+		else {
+				return unity_ProbesOcclusion;
+			}
 	#endif
 }
 

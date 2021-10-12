@@ -69,6 +69,7 @@ public class MeshBall : MonoBehaviour
                     positions, lightProbes, occlusionProbes
                 );
                 block.CopySHCoefficientArraysFrom(lightProbes);
+                block.CopyProbeOcclusionArrayFrom(occlusionProbes);
             }
             
         }

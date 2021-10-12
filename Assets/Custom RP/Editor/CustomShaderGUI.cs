@@ -96,7 +96,8 @@ public class CustomShaderGUI : ShaderGUI
         {
             foreach (Material m in editor.targets)
             {
-                m.globalIlluminationFlags &=~MaterialGlobalIlluminationFlags.EmissiveIsBlack;
+                m.globalIlluminationFlags &=
+                    ~MaterialGlobalIlluminationFlags.EmissiveIsBlack;
             }
         }
     }

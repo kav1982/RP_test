@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Custom_Unlit 10
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
-  m_ShaderKeywords: _CLIPPING _PREMULTIPLY_ALPHA _SHADOWS_CLIP
+  m_ShaderKeywords: _CLIPPING _SHADOWS_CLIP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -36,7 +36,7 @@ Material:
     - _Cutoff: 0.66
     - _DstBlend: 0
     - _Metallic: 0.15
-    - _PremulAlpha: 1
+    - _PremulAlpha: 0
     - _ReceiveShadows: 0
     - _Shadows: 1
     - _Smoothness: 0.46

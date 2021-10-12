@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TestRP
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
-  m_ShaderKeywords: _SHADOWS_CLIP
+  m_ShaderKeywords: _RECEIVE_SHADOWS _SHADOWS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -73,8 +73,8 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PremulAlpha: 0
-    - _ReceiveShadows: 0
-    - _Shadows: 1
+    - _ReceiveShadows: 1
+    - _Shadows: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -82,6 +82,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9256503, g: 1, b: 0.0990566, a: 1}
-    - _Color: {r: 0.9256503, g: 1, b: 0.0990566, a: 1}
+    - _BaseColor: {r: 0.8773585, g: 0.86377966, b: 0.376602, a: 1}
+    - _Color: {r: 0.8773585, g: 0.86377966, b: 0.376602, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

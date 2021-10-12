@@ -23,6 +23,7 @@ struct Attributes
 struct Varyings
 {
 	float4 positionCS : SV_POSITION;
+	float3 positionWS : VAR_POSITION;
 	float2 baseUV : VAR_BASE_UV;
 	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
@@ -33,8 +34,8 @@ Varyings ShadowCasterPassVertex(Attributes input)
 	Varyings output;
 	UNITY_SETUP_INSTANCE_ID(input);
 	UNITY_TRANSFER_INSTANCE_ID(input, output);
-	float3 positionWS = TransformObjectToWorld(input.positionOS);
-	output.positionCS = TransformWorldToHClip(positionWS);
+	output.positionWS = TransformObjectToWorld(input.positionOS);
+	output.positionCS = TransformWorldToHClip(output.positionWS);
 
 	#if UNITY_REVERSED_Z
 		output.positionCS.z =
