@@ -3,7 +3,11 @@
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.ide.rider": "1.1.0",
+=======
+    "com.unity.ide.rider": "1.0.8",
+>>>>>>> parent of 8fea264 (10.30 Unity版本切换)
 =======
     "com.unity.ide.rider": "1.0.8",
 >>>>>>> parent of 8fea264 (10.30 Unity版本切换)
