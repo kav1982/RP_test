@@ -30,7 +30,7 @@ struct Attributes
 	float3 normalOS : NORMAL;
 	float2 baseUV : TEXCOORD0;
 	GI_ATTRIBUTE_DATA
-		UNITY_VERTEX_INPUT_INSTANCE_ID
+	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
 struct Varyings
@@ -40,7 +40,7 @@ struct Varyings
 	float3 normalWS : VAR_NORMAL;
 	float2 baseUV : VAR_BASE_UV;
 	GI_VARYINGS_DATA
-		UNITY_VERTEX_INPUT_INSTANCE_ID
+	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
 
@@ -53,8 +53,9 @@ Varyings LitPassVertex(Attributes input)
 	output.positionWS = TransformObjectToWorld(input.positionOS);
 	output.positionCS = TransformWorldToHClip(output.positionWS);
 	output.normalWS = TransformObjectToWorldNormal(input.normalOS);
-	float4 baseST = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _BaseMap_ST);
-	output.baseUV = input.baseUV * baseST.xy + baseST.zw;
+	//float4 baseST = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _BaseMap_ST);
+	//output.baseUV = input.baseUV * baseST.xy + baseST.zw;	
+	output.baseUV = TransformBaseUV(input.baseUV);
 	return output;
 }
 
@@ -72,12 +73,12 @@ float4 base = GetBase(input.baseUV);
 	clip(base.a - GetCutoff(input.baseUV));
 #endif
 
-#if defined(_SHADOWS_CLIP)
-	clip(base.a - UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Cutoff));
-#elif defined(_SHADOWS_DITHER)
-	float dither = InterleavedGradientNoise(input.positionCS.xy, 0);
-	clip(base.a - dither);
-#endif
+//#if defined(_SHADOWS_CLIP)
+//	clip(base.a - UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _Cutoff));
+//#elif defined(_SHADOWS_DITHER)
+//	float dither = InterleavedGradientNoise(input.positionCS.xy, 0);
+//	clip(base.a - dither);
+//#endif
 
 	Surface surface;
 	surface.position = input.positionWS;

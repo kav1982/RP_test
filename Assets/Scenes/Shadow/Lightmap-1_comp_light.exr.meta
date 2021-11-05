@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:Assets/Scenes/Shadow/Lightmap-1_comp_light.exr.meta
 <<<<<<< HEAD:Assets/Scenes/Shadow/Lightmap-1_comp_light.exr.meta
+<<<<<<< HEAD:Assets/Scenes/Shadow/Lightmap-1_comp_light.exr.meta
 guid: 8f1d0f569fec06b4da893cbbb5f4f352
+=======
+guid: 25796750feabd2b4a8170e5cae7ad049
+>>>>>>> parent of 8fea264 (10.30 Unity版本切换):Assets/Scenes/Shadow/Lightmap-0_comp_shadowmask.png.meta
 =======
 guid: 25796750feabd2b4a8170e5cae7ad049
 >>>>>>> parent of 8fea264 (10.30 Unity版本切换):Assets/Scenes/Shadow/Lightmap-0_comp_shadowmask.png.meta

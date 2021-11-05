@@ -7,42 +7,37 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Unlit 8
+  m_Name: Custom RP_Ems
   m_Shader: {fileID: 4800000, guid: 88e1fc4dfccca484fa7de2263d25851b, type: 3}
-  m_ShaderKeywords: _CLIPPING _RECEIVE_SHADOWS _SHADOWS_ON
+  m_ShaderKeywords: _RECEIVE_SHADOWS _SHADOWS_ON
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: c4728729dbd3b5147b41b96c885415c7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c4728729dbd3b5147b41b96c885415c7, type: 3}
+    - _EmissionMap:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Clipping: 1
-    - _Cutoff: 0.38
+    - _Clipping: 0
+    - _Cutoff: 0.5
     - _DstBlend: 0
-    - _Metallic: 0.22
+    - _Metallic: 0.5
     - _PremulAlpha: 0
     - _ReceiveShadows: 1
     - _Shadows: 0
-    - _Smoothness: 0.46
+    - _Smoothness: 0.5
     - _SrcBlend: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8089063, g: 0.8584906, b: 0.51428443, a: 1}
-    - _Color: {r: 0.8089063, g: 0.8584906, b: 0.5142844, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.5653149, g: 0.26072446, b: 0.8773585, a: 1}
+    - _EmissionColor: {r: 6.933334, g: 5.699128, b: 1.8150089, a: 0}

@@ -8,6 +8,8 @@ float4x4 unity_WorldToObject;
 float4 unity_LODFade;
 real4 unity_WorldTransformParams;
 
+float4 unity_ProbesOcclusion;
+
 float4 unity_LightmapST;
 float4 unity_DynamicLightmapST;
 
@@ -25,10 +27,6 @@ float4 unity_ProbeVolumeSizeInv;
 float4 unity_ProbeVolumeMin;
 CBUFFER_END
 
-//float3 GetEmission(float2 baseUV)
-//{
-//	return GetBase(baseUV).rgb;
-//}
 
 float4x4 unity_MatrixVP;
 float4x4 unity_MatrixV;

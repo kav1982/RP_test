@@ -20,11 +20,18 @@ public class Shadows
         "_CASCADE_BLEND_DITHER"
     };
 
-    static string[] directionalFilterKeywords = {
-    "_DIRECTIONAL_PCF3",
-    "_DIRECTIONAL_PCF5",
-    "_DIRECTIONAL_PCF7",
-};
+    static string[] directionalFilterKeywords = 
+    {
+        "_DIRECTIONAL_PCF3",
+        "_DIRECTIONAL_PCF5",
+        "_DIRECTIONAL_PCF7",
+    };
+
+    static string[] shadowMaskKeywords =
+    {
+        "_SHADOW_MASK_ALWAYS",
+        "_SHADOW_MASK_DISTANCE"
+    };
 
     ShadowedDirectionalLight[] ShadowedDirectionalLights =
         new ShadowedDirectionalLight[maxShadowedDirectionalLightCount];
@@ -45,6 +52,8 @@ public class Shadows
 
     int ShadowedDirectionalLightCount;
 
+    bool useShadowMask;
+
     public void Setup(
         ScriptableRenderContext context, CullingResults cullingResults,
         ShadowSettings settings)
@@ -53,6 +62,7 @@ public class Shadows
         this.cullingResults = cullingResults;
         this.settings = settings;
         ShadowedDirectionalLightCount = 0;
+        useShadowMask = false;
     }
 
     void ExecuteBuffer()
@@ -64,12 +74,28 @@ public class Shadows
 
         
 
-    public Vector3 ReserveDirectionalShadows(Light light, int visibleLightIndex)
+    public Vector4 ReserveDirectionalShadows(Light light, int visibleLightIndex)
     {
         if(ShadowedDirectionalLightCount < maxShadowedDirectionalLightCount &&
-            light.shadows != LightShadows.None && light.shadowStrength > 0f && 
-            cullingResults.GetShadowCasterBounds(visibleLightIndex, out Bounds b))
+            light.shadows != LightShadows.None && light.shadowStrength > 0f)
+            //&& cullingResults.GetShadowCasterBounds(visibleLightIndex, out Bounds b))
         {
+            float maskChannel = -1;
+            LightBakingOutput lightBaking = light.bakingOutput;
+            if (
+                lightBaking.lightmapBakeType == LightmapBakeType.Mixed &&
+                lightBaking.mixedLightingMode == MixedLightingMode.Shadowmask
+                )
+            {
+                useShadowMask = true;
+                maskChannel = lightBaking.occlusionMaskChannel;
+            }
+
+            if(!cullingResults.GetShadowCasterBounds(visibleLightIndex, out Bounds b))
+            {
+                return new Vector4(-light.shadowStrength, 0f, 0f, maskChannel);
+            }
+
             ShadowedDirectionalLights[ShadowedDirectionalLightCount] =
                 new ShadowedDirectionalLight
                 {
@@ -77,10 +103,10 @@ public class Shadows
                     slopeScaleBias = light.shadowBias,
                     nearPlaneOffset = light.shadowNearPlane
                 };
-            return new Vector3(
-                light.shadowStrength, 
+            return new Vector4(
+                light.shadowStrength,
                 settings.directional.cascadeCount * ShadowedDirectionalLightCount++,
-                light.shadowNormalBias
+                light.shadowNormalBias, maskChannel
             );
         }
         return Vector3.zero;
@@ -92,6 +118,11 @@ public class Shadows
         {
             RenderDirectionalShadows();
         }
+        buffer.BeginSample(bufferName);
+        SetKeywords(shadowMaskKeywords, useShadowMask ? 
+            QualitySettings.shadowmaskMode == ShadowmaskMode.Shadowmask ? 0 : 1 : -1);
+        buffer.EndSample(bufferName);
+        ExecuteBuffer( );
     }
 
     static int
@@ -140,7 +171,8 @@ public class Shadows
     void RenderDirectionalShadows() 
     {
         int atlasSize = (int)settings.directional.atlasSize;
-        buffer.GetTemporaryRT(dirshadowAtlasId, atlasSize, atlasSize,
+        buffer.GetTemporaryRT(
+            dirshadowAtlasId, atlasSize, atlasSize,
             32, FilterMode.Bilinear, RenderTextureFormat.Shadowmap
             );
         buffer.SetRenderTarget(
@@ -247,7 +279,7 @@ public class Shadows
 
             buffer.SetViewProjectionMatrices(viewMatrix, projectionMatrix);
             //buffer.SetGlobalDepthBias(0f, 3f);
-            //buffer.SetGlobalDepthBias(5000f, 0f);
+            //buffer.SetGlobalDepthBias(50000f, 0f);
             buffer.SetGlobalDepthBias(0f, light.slopeScaleBias);
             ExecuteBuffer();
             context.DrawShadows(ref shadowSettings);
@@ -266,7 +298,7 @@ public class Shadows
         //cascadeData[index].x = 1f / cullingSphere.w;
         cascadeData[index] = new Vector4(
             1f / cullingSphere.w,
-            texelSize * 1.4142136f
+            filterSize * 1.4142136f
             );
     }
 
