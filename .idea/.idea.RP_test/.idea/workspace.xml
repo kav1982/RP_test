@@ -2,14 +2,1085 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaef5e19-af8d-4395-84f0-854007a61238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.Editor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Camera-Switcher.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Culling-in-SRP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Drawing-in-SRP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Free-Camera.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Images/CameraSwitcher1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Images/FreeCamera1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/Problems-That-SRP-Solves.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/SRP-Asset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/SRP-Context.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/SRP-Instance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/SRP-Overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/TableOfContents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/XR-in-SRP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Documentation~/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CameraEditorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CameraEditorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ContextualMenuDispatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ContextualMenuDispatcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorDrawers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorDrawers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorStyles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorStyles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/CoreEditorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIDrawer.Builtins.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIDrawer.Builtins.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIHandlerCanvasEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugUIHandlerCanvasEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/DebugWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/UIFoldoutEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Debugging/UIFoldoutEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/EditorPrefBoolFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/EditorPrefBoolFlags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ExpandedState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ExpandedState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/FilterWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/FilterWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/HierarchicalBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/HierarchicalBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/HierarchicalSphere.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/HierarchicalSphere.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/UnlitGizmo.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Gizmo/UnlitGizmo.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/InspectorCurveEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/InspectorCurveEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Lighting/CoreLightEditorUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Lighting/CoreLightEditorUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CameraState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CameraState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ComparisonGizmoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ComparisonGizmoController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ComparisonGizmoState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ComparisonGizmoState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Compositor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Compositor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Compositor.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Compositor.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Context.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Context.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CubeToLatlong.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/CubeToLatlong.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow-PersonalSkin.uss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow-PersonalSkin.uss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.DebugSidePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.DebugSidePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.EnvironmentLibrarySidePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.EnvironmentLibrarySidePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.uss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DisplayWindow.uss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DropArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/DropArea.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Environment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Environment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/EnvironmentLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/EnvironmentLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Add.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Add@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Add@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera1@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Camera2@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/CenterLight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/CenterLight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/CenterLight@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/CenterLight@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Duplicate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Duplicate.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Duplicate@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Duplicate@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Environment@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Environment@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout1@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Layout2@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutCustom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutCustom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutCustom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutCustom@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutHorizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutHorizontal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutHorizontal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutHorizontal@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutVertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutVertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutVertical@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LayoutVertical@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LeftArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LeftArrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LeftArrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LeftArrow@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Link.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Link@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Link@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LookDev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LookDev.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LookDev@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/LookDev@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Remove.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Remove@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Remove@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RenderDoc@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RenderDoc@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RightArrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RightArrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/RightArrow@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Rotation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Rotation@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/Rotation@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/SunPosition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/SunPosition.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/SunPosition@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/SunPosition@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Add.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Add@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Add@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera1@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Camera2@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_CenterLight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_CenterLight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_CenterLight@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_CenterLight@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Duplicate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Duplicate.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Duplicate@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Duplicate@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Environment@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Environment@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout1@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Layout2@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutCustom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutCustom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutCustom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutCustom@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutHorizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutHorizontal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutHorizontal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutHorizontal@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutVertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutVertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutVertical@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LayoutVertical@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LeftArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LeftArrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LeftArrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LeftArrow@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Link.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Link@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Link@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LookDev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LookDev.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LookDev@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_LookDev@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Remove.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Remove@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Remove@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RenderDoc@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RenderDoc@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RightArrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RightArrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_RightArrow@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Rotation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Rotation@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_Rotation@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_SunPosition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_SunPosition.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_SunPosition@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_SunPosition@2x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_renderdoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/d_renderdoc.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/renderdoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Icons/renderdoc.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Inspectors.uss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Inspectors.uss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/LookDev.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/LookDev.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/LookDevRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/LookDevRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Stage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/Stage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ToolbarRadio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/LookDev/ToolbarRadio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/MaterialUpgrader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/MaterialUpgrader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/PropertyFetcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/PropertyFetcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/QuaternionPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/QuaternionPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Resources/Advanced_Pressed_mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Resources/Advanced_Pressed_mini.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Resources/Advanced_UnPressed_mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Resources/Advanced_UnPressed_mini.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/CSharpToHLSL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/CSharpToHLSL.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ShaderGeneratorMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ShaderGeneratorMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ShaderTypeGeneration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/ShaderGenerator/ShaderTypeGeneration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Unity.RenderPipelines.Core.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Unity.RenderPipelines.Core.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Utilities/EditorMaterialQuality.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Utilities/EditorMaterialQuality.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Utilities/SerializedBitArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Utilities/SerializedBitArray.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/ColorParameterDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/ColorParameterDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/FloatParameterDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/FloatParameterDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/IntParameterDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/IntParameterDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/Drawers/Vector4ParameterDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/SerializedDataParameter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/SerializedDataParameter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentListEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentListEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeComponentProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeMenuItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeMenuItems.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeParameterDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeParameterDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeProfileEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeProfileEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeProfileFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Editor/Volume/VolumeProfileFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Camera/CameraSwitcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Camera/CameraSwitcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Camera/FreeCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Camera/FreeCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CommandBufferPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CommandBufferPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CommonStructs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CommonStructs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ComponentSingleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ComponentSingleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CoreUnsafeUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/CoreUnsafeUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/DynamicArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/DynamicArray.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/DynamicResolutionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/DynamicResolutionHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/GlobalDynamicResolutionSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/GlobalDynamicResolutionSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ObjectPools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ObjectPools.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ObservableList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/ObservableList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/SerializedDictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/SerializedDictionary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/XRGraphics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Common/XRGraphics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugManager.Actions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugManager.Actions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugShapes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugShapes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Containers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Containers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Fields.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Fields.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Panel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.Panel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/DebugUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/MousePositionDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/MousePositionDebug.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Resources/DebugUI Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Resources/DebugUI Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Resources/DebugUI Persistent Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Resources/DebugUI Persistent Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerBitField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerBitField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerEnumHistory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFloatField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFloatField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerHBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerHBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectFloatField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectFloatField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectToggle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIntField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerIntField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPersistentCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerPersistentCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggleHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerToggleHistory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerUIntField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerUIntField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerVector4.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerWidget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/DebugUIHandlerWidget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/UIFoldout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Scripts/UIFoldout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIArrowDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIArrowDown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UICheckMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UICheckMark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIElement8px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIElement8px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/White1px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Textures/White1px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI BitField.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI BitField.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Color.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Color.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI EnumField.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI EnumField.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI EnumHistory.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI EnumHistory.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI FloatField.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI FloatField.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Foldout.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Foldout.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Group.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Group.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI HBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI HBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI IntField.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI IntField.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Panel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Toggle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Toggle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI ToggleHistory.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI ToggleHistory.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI UIntField.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI UIntField.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI VBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI VBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Value.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Value.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/Prefabs/Widgets/DebugUI Vector4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/ProfilingScope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Debugging/ProfilingScope.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Documentation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Documentation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Inputs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Inputs/InputRegistering.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Inputs/InputRegistering.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/LookDev.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/LookDev/IDataProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/LookDev/IDataProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphLogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphLogger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphProfileId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphProfileId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphResource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphResourceRegistry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RenderGraph/RenderGraphResourceRegistry.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RendererList.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RendererList/RendererList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/RendererList/RendererList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/ShaderGenerator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/ShaderGenerator/ShaderGeneratorAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/ShaderGenerator/ShaderGeneratorAttributes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/BufferedRTHandleSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/BufferedRTHandleSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/DepthBits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/DepthBits.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/MSAASamples.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/MSAASamples.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandleSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandleSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/RTHandles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/TextureXR.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Textures/TextureXR.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/BitArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/BitArray.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CameraCaptureBridge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CameraCaptureBridge.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/ColorUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/ColorUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CoreRenderPipelinePreferences.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CoreRenderPipelinePreferences.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CoreUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/CoreUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/DelegateUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/DelegateUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/HableCurve.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/HableCurve.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/HaltonSequence.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/HaltonSequence.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/MaterialQuality.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/MaterialQuality.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/ResourceReloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/ResourceReloader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/SceneRenderPipeline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/SceneRenderPipeline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/TextureCurve.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/TextureCurve.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/TileLayoutUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/TileLayoutUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/XRUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Utilities/XRUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/Volume.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/Volume.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeParameter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeParameter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeProfile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Runtime/Volume/VolumeStack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/ACES.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/ACES.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/D3D11.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/D3D11.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLCore.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLCore.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLES2.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLES2.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLES3.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/GLES3.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Metal.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Metal.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Switch.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Switch.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Validate.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Validate.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Vulkan.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/API/Vulkan.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/AreaLighting.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/AreaLighting.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/BC6H.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/BC6H.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/BSDF.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/BSDF.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Color.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Color.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Common.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Common.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonDeprecated.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonDeprecated.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonLighting.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonLighting.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonMaterial.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonMaterial.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonShadow.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/CommonShadow.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Debug.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Debug.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/DummyShaderLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/DummyShaderLibrary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/EntityLighting.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/EntityLighting.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Filtering.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Filtering.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/GeometricTools.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/GeometricTools.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/ImageBasedLighting.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/ImageBasedLighting.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Macros.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Macros.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/NormalSurfaceGradient.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/NormalSurfaceGradient.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Packing.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Packing.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/PerPixelDisplacement.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/PerPixelDisplacement.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/PhysicalCamera.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/PhysicalCamera.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Random.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Random.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Refraction.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Refraction.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SDF2D.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SDF2D.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Fibonacci.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Fibonacci.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Hammersley.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Hammersley.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMapping.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMapping.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMappingInternal.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMappingInternal.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMappingNormalInternal.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/SampleUVMappingNormalInternal.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Sampling.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Sampling/Sampling.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Shadow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Shadow/ShadowSamplingTent.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Shadow/ShadowSamplingTent.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SpaceFillingCurves.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SpaceFillingCurves.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SpaceTransforms.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/SpaceTransforms.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Tessellation.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Tessellation.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/UnityInstancing.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/UnityInstancing.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Version.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/Version.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/VolumeRendering.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ShaderLibrary/VolumeRendering.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/.tests.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/BitArrayTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/BitArrayTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/CoreUnsafeUtilsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/CoreUnsafeUtilsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/EditorExampleTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/EditorExampleTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/FixedBufferStringQueueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/FixedBufferStringQueueTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Runtime/RuntimeExampleTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Runtime/RuntimeExampleTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ValidationConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/ValidationConfig.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@7.2.1/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/contentModel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RP_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/LitPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/LitPass.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Documentation~/ScriptableRenderPipeline.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/CoreEditorStyles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/CoreEditorStyles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/CoreEditorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/CoreEditorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/FilterWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/FilterWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CameraState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CameraState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ComparisonGizmoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ComparisonGizmoController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ComparisonGizmoState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ComparisonGizmoState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Compositor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Compositor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Compositor.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Compositor.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Context.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Context.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CubeToLatlong.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/CubeToLatlong.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DisplayWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DisplayWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DisplayWindow.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DisplayWindow.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DropArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/DropArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Environment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Environment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/EnvironmentLibrary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/EnvironmentLibrary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevCenterLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevCenterLight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevCenterLightl@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevCenterLightl@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevClose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevClose.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevClose@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevClose@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEnvRotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEnvRotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEnvRotation@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEnvRotation@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEyedrop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevEyedrop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevLight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevLight@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevLight@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMainIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMainIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsActive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsActive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsActive@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsActive@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsInactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsInactive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsInactive@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevMirrorViewsInactive@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevObjRotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevObjRotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevObjRotation@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevObjRotation@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevPaneOption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevPaneOption.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevPaneOption@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevPaneOption@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevResetEnv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevResetEnv.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevResetEnv@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevResetEnv@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadow@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadowFrame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadowFrame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadowFrame@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevShadowFrame@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideHorizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideHorizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideHorizontal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideHorizontal@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideVertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideVertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideVertical@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSideBySideVertical@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle1@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSingle2@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSplit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSplit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSplit@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevSplit@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevZone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevZone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevZone@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/LookDevZone@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevCenterLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevCenterLight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevCenterLight@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevCenterLight@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevClose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevClose.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevClose@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevClose@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevEnvRotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevEnvRotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevEnvRotation@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevEnvRotation@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMainIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMainIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViews.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViews.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViews@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViews@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsActive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsActive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsActive@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsActive@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsInactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsInactive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsInactive@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevMirrorViewsInactive@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevObjRotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevObjRotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevObjRotation@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevObjRotation@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevPaneOption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevPaneOption.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevPaneOption@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevPaneOption@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevResetEnv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevResetEnv.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevResetEnv@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevResetEnv@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevShadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevShadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevShadow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevShadow@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideHorizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideHorizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideHorizontal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideHorizontal@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideVertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideVertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideVertical@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSideBySideVertical@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle1@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSingle2@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSplit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSplit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSplit@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevSplit@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevZone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevZone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevZone@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_LookDevZone@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_renderdoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/d_renderdoc.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/renderdoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Icons/renderdoc.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Inspectors.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Inspectors.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/LookDev.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/LookDev.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/LookDevRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/LookDevRenderer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Stage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/Stage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ToolbarRadio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/LookDev/ToolbarRadio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/MaterialUpgrader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/MaterialUpgrader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/PropertyFetcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/PropertyFetcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Resources/Advanced_Pressed_mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Resources/Advanced_Pressed_mini.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Resources/Advanced_UnPressed_mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Resources/Advanced_UnPressed_mini.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Unity.RenderPipelines.Core.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Unity.RenderPipelines.Core.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/ColorParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/ColorParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/FloatParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/FloatParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/IntParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/IntParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/Drawers/Vector4ParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/SerializedDataParameter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/SerializedDataParameter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentListEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentListEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeComponentProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeProfileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeProfileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeProfileFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Editor/Volume/VolumeProfileFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/CommandBufferPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/CommandBufferPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/CommonStructs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/CommonStructs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/XRGraphics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Common/XRGraphics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Debugging.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Debugging/ProfilingSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Debugging/ProfilingSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/LookDev.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/LookDev/IDataProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/LookDev/IDataProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Textures/MSAASamples.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Textures/MSAASamples.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CameraCaptureBridge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CameraCaptureBridge.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/ColorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/ColorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CoreRenderPipelinePreferences.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CoreRenderPipelinePreferences.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CoreUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/CoreUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/HableCurve.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/HableCurve.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/HaltonSequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/HaltonSequence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/ResourceReloader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/ResourceReloader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/XRUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Utilities/XRUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/Volume.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/Volume.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeParameter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeParameter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeProfile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeProfile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeStack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Runtime/Volume/VolumeStack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/ACES.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/ACES.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/D3D11.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/D3D11.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLCore.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLCore.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLES2.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLES2.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLES3.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/GLES3.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Metal.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Metal.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/PSSL.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/PSSL.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Switch.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Switch.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Validate.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Validate.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Vulkan.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/Vulkan.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/XBoxOne.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/API/XBoxOne.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/AreaLighting.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/AreaLighting.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/BC6H.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/BC6H.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/BSDF.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/BSDF.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Color.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Color.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Common.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Common.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonLighting.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonLighting.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonMaterial.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonMaterial.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonShadow.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/CommonShadow.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Debug.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Debug.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/DummyShaderLibrary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/DummyShaderLibrary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/EntityLighting.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/EntityLighting.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Filtering.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Filtering.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/GeometricTools.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/GeometricTools.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/ImageBasedLighting.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/ImageBasedLighting.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Macros.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Macros.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/NormalSurfaceGradient.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/NormalSurfaceGradient.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Packing.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Packing.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/PerPixelDisplacement.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/PerPixelDisplacement.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/PhysicalCamera.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/PhysicalCamera.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Random.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Random.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Refraction.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Refraction.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Fibonacci.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Fibonacci.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Hammersley.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Hammersley.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMapping.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMapping.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMappingInternal.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMappingInternal.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMappingNormalInternal.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/SampleUVMappingNormalInternal.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Sampling.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Sampling/Sampling.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Shadow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Shadow/ShadowSamplingTent.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Shadow/ShadowSamplingTent.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/SpaceFillingCurves.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/SpaceFillingCurves.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/SpaceTransforms.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/SpaceTransforms.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Tessellation.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Tessellation.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/UnityInstancing.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/UnityInstancing.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/VolumeRendering.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/ShaderLibrary/VolumeRendering.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/.tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Editor/EditorExampleTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Editor/EditorExampleTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Runtime/RuntimeExampleTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Runtime/RuntimeExampleTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.unity.render-pipelines.core@6.9.1/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +1091,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F38C71C8-6AA6-4E29-9D4C-EA9FB7C715E1/4e/6064e425/RenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F38C71C8-6AA6-4E29-9D4C-EA9FB7C715E1/be/7b2ed5e8/SortingSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f38c71c86aa64e299d4cea9fb7c715e1112400/7c/95bfe45d/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f38c71c86aa64e299d4cea9fb7c715e1112400/d0/2d57c167/GraphicsSettings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" />
       <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" />
     </changedPaths>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zQtOG4beJdOqSJwc8L6SJUqzDn" />
   <component name="ProjectLevelVcsManager">
@@ -37,24 +1111,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.555794",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Files\Unity2019.3.0f6\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\GitHub\RP_test -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\GitHub\RP_test" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -64,6 +1150,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -84,6 +1171,14 @@
       <workItem from="1634108282780" duration="642000" />
       <workItem from="1645282824818" duration="3481000" />
       <workItem from="1645288894756" duration="1972000" />
+      <workItem from="1674265842567" duration="2168000" />
+      <workItem from="1674268632796" duration="113000" />
+      <workItem from="1674268834292" duration="187000" />
+      <workItem from="1674269387583" duration="903000" />
+      <workItem from="1674285431346" duration="204000" />
+      <workItem from="1674287563749" duration="110000" />
+      <workItem from="1674287838743" duration="1274000" />
+      <workItem from="1674289141340" duration="13042000" />
     </task>
     <servers />
   </component>
@@ -103,7 +1198,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
